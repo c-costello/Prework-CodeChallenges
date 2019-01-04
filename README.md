@@ -72,3 +72,6 @@ Yes
 
 #### Explanation
 1 * 3 * 2 = 6 && 1 + 3 + 2 = 6
+
+#### Screen Capture
+![challenge three screen cap](./challenge03_snip.PNG)

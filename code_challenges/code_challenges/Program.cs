@@ -8,6 +8,9 @@ namespace code_challenges
         {
             //challengeOne();
             //challengeTwo();
+            int[] sequence = { 1, -2, 3 };
+            challengeThree(sequence);
+            
 
         }
         private static int findScore(int[] numbers, int choice)
@@ -70,6 +73,24 @@ namespace code_challenges
             }
             Console.ReadLine();
         }
-
+        private static void challengeThree(int[] perfectSequense)
+        {
+            Console.WriteLine("Array: " + String.Join(',', perfectSequense));
+            int sum = 0;
+            int product = 1;
+            foreach ( var number in perfectSequense)
+            {
+                sum += number;
+                product *= number;
+            }
+            if (sum == product)
+            {
+                Console.WriteLine(String.Join(',', perfectSequense) + " is a perfect sequence");
+            } else
+            {
+                Console.WriteLine(String.Join(',', perfectSequense) + " is not a perfect sequense");
+            }
+            Console.ReadLine();
+        }
     }
 }
