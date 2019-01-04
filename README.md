@@ -25,3 +25,4 @@ An array of integers, and the number chosen.
 
 
 #### Screen Capture
+![challenge one screen cap](./challenge01_snip)
