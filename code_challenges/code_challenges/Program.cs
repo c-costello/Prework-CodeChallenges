@@ -6,7 +6,10 @@ namespace code_challenges
     {
         static void Main(string[] args)
         {
-            challengeOne();
+            //challengeOne();
+            challengeTwo();
+            challengeTwo();
+            challengeTwo();
 
         }
         private static int findScore(int[] numbers, int choice)
@@ -42,6 +45,31 @@ namespace code_challenges
             int input = Convert.ToInt32(inputStr);
             Console.WriteLine("Your Number: " + input);
             Console.WriteLine("Your Score is: " +findScore(array, input));
+            Console.ReadLine();
+        }
+        private static void challengeTwo()
+        {
+            Random r = new Random();
+            int year = r.Next(0, 3000);
+            Console.WriteLine("Is " + year + " a leap year?");
+            if (year % 4 == 0)
+            {
+                if (year % 100 == 0)
+                {
+                    if (year % 400 == 0)
+                    {
+                        Console.WriteLine(year + " is a leap year");
+                    } else
+                    {
+                        Console.WriteLine(year + " is not a leap year");
+                    }
+                } else {
+                Console.WriteLine(year + " is a leap year");
+                }
+            } else
+            {
+                Console.WriteLine(year + " is not a leap year");
+            }
             Console.ReadLine();
         }
     }
