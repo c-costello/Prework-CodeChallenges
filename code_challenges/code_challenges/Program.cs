@@ -8,6 +8,8 @@ namespace code_challenges
         {
             //challengeOne();
             challengeTwo();
+            challengeTwo();
+            challengeTwo();
 
         }
         private static int findScore(int[] numbers, int choice)
@@ -49,24 +51,24 @@ namespace code_challenges
         {
             Random r = new Random();
             int year = r.Next(0, 3000);
-            Console.WriteLine(year);
+            Console.WriteLine("Is " + year + " a leap year?");
             if (year % 4 == 0)
             {
                 if (year % 100 == 0)
                 {
                     if (year % 400 == 0)
                     {
-                        Console.WriteLine("true");
+                        Console.WriteLine(year + " is a leap year");
                     } else
                     {
-                        Console.WriteLine("false");
+                        Console.WriteLine(year + " is not a leap year");
                     }
                 } else {
-                Console.WriteLine("true");
+                Console.WriteLine(year + " is a leap year");
                 }
             } else
             {
-                Console.WriteLine("false");
+                Console.WriteLine(year + " is not a leap year");
             }
             Console.ReadLine();
         }

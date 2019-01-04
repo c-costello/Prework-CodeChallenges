@@ -25,7 +25,7 @@ An array of integers, and the number chosen.
 
 
 #### Screen Capture
-![challenge one screen cap](./challenge01_snip)
+![challenge one screen cap](./challenge01_snip.PNG)
 
 ## Problem 2: Leap Year Calculator
 
@@ -46,3 +46,7 @@ For example, 1997 is not a leap year, but 1996 is. 1900 is not a leap year, but 
 Want to know more about Leap Year? Watch this 4 minute video [HERE](https://www.youtube.com/watch?v=xX96xng7sAE)
 
 Note: This is not a trick problem. Edge cases do not need to be taken into consideration when creating a solution.
+
+#### Screen Capture
+![challenge two screen cap](./challenge02_snip.PNG)
+Note: I ran the code three times to show multipe outcomes, but the code only actually runs once.
