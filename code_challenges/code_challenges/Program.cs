@@ -6,7 +6,8 @@ namespace code_challenges
     {
         static void Main(string[] args)
         {
-            challengeOne();
+            //challengeOne();
+            challengeTwo();
 
         }
         private static int findScore(int[] numbers, int choice)
@@ -42,6 +43,31 @@ namespace code_challenges
             int input = Convert.ToInt32(inputStr);
             Console.WriteLine("Your Number: " + input);
             Console.WriteLine("Your Score is: " +findScore(array, input));
+            Console.ReadLine();
+        }
+        private static void challengeTwo()
+        {
+            Random r = new Random();
+            int year = r.Next(0, 3000);
+            Console.WriteLine(year);
+            if (year % 4 == 0)
+            {
+                if (year % 100 == 0)
+                {
+                    if (year % 400 == 0)
+                    {
+                        Console.WriteLine("true");
+                    } else
+                    {
+                        Console.WriteLine("false");
+                    }
+                } else {
+                Console.WriteLine("true");
+                }
+            } else
+            {
+                Console.WriteLine("false");
+            }
             Console.ReadLine();
         }
     }
