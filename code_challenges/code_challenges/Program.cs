@@ -7,9 +7,7 @@ namespace code_challenges
         static void Main(string[] args)
         {
             //challengeOne();
-            challengeTwo();
-            challengeTwo();
-            challengeTwo();
+            //challengeTwo();
 
         }
         private static int findScore(int[] numbers, int choice)
@@ -72,5 +70,6 @@ namespace code_challenges
             }
             Console.ReadLine();
         }
+
     }
 }
