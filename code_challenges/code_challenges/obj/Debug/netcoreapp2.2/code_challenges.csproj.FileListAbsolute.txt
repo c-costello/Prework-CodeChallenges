@@ -1,0 +1,11 @@
+c:\users\clari\source\repos\Prework-CodeChallenges\code_challenges\code_challenges\bin\Debug\netcoreapp2.2\code_challenges.deps.json
+c:\users\clari\source\repos\Prework-CodeChallenges\code_challenges\code_challenges\bin\Debug\netcoreapp2.2\code_challenges.runtimeconfig.json
+c:\users\clari\source\repos\Prework-CodeChallenges\code_challenges\code_challenges\bin\Debug\netcoreapp2.2\code_challenges.runtimeconfig.dev.json
+c:\users\clari\source\repos\Prework-CodeChallenges\code_challenges\code_challenges\bin\Debug\netcoreapp2.2\code_challenges.dll
+c:\users\clari\source\repos\Prework-CodeChallenges\code_challenges\code_challenges\bin\Debug\netcoreapp2.2\code_challenges.pdb
+c:\users\clari\source\repos\Prework-CodeChallenges\code_challenges\code_challenges\obj\Debug\netcoreapp2.2\code_challenges.csprojAssemblyReference.cache
+c:\users\clari\source\repos\Prework-CodeChallenges\code_challenges\code_challenges\obj\Debug\netcoreapp2.2\code_challenges.csproj.CoreCompileInputs.cache
+c:\users\clari\source\repos\Prework-CodeChallenges\code_challenges\code_challenges\obj\Debug\netcoreapp2.2\code_challenges.AssemblyInfoInputs.cache
+c:\users\clari\source\repos\Prework-CodeChallenges\code_challenges\code_challenges\obj\Debug\netcoreapp2.2\code_challenges.AssemblyInfo.cs
+c:\users\clari\source\repos\Prework-CodeChallenges\code_challenges\code_challenges\obj\Debug\netcoreapp2.2\code_challenges.dll
+c:\users\clari\source\repos\Prework-CodeChallenges\code_challenges\code_challenges\obj\Debug\netcoreapp2.2\code_challenges.pdb
