@@ -8,8 +8,9 @@ namespace code_challenges
         {
             //challengeOne();
             //challengeTwo();
-            int[] sequence = { 1, -2, 3 };
-            challengeThree(sequence);
+            //int[] sequence = { 1, -2, 3 };
+            //challengeThree(sequence);
+            challengeFour();
             
 
         }
@@ -90,6 +91,45 @@ namespace code_challenges
             {
                 Console.WriteLine(String.Join(',', perfectSequense) + " is not a perfect sequense");
             }
+            Console.ReadLine();
+        }
+        private static void challengeFour()
+        {
+            Console.Write("Please select number of columns (1-10) : ");
+            int columns = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Please select number of rows (1-10) : ");
+            int rows = Convert.ToInt32(Console.ReadLine());
+            int[,] myArr = new int[columns, rows];
+            for (int i = 0; i < columns; i++)
+            {
+                Console.Write("Column " + i + ": ");
+                for (int j = 0; j < rows; j++)
+                {
+                    Random r = new Random();
+                    myArr[i, j] = r.Next(0, 10);
+                    Console.Write(myArr[i, j] + ", ");
+                }
+                Console.WriteLine();
+            }
+
+
+
+            //int[,] myArray = new int[3, 5] { { 1, 2, 3, 4, 5 }, { 6, 7, 8, 9, 10 }, { 11, 12, 13, 14, 15 } };
+
+
+            int[] totalArr = new int[myArr.GetLength(0)];
+            for (int i = 0; i < myArr.GetLength(0); i++)
+            {
+                for (int j = 0; j < myArr.GetLength(1); j++)
+                {
+                    totalArr[i] += myArr[i, j];
+                }
+            }
+            for (int k = 0; k < myArr.GetLength(0); k++)
+            {
+            }
+
+            Console.WriteLine("Row totals: " + String.Join(',', totalArr));
             Console.ReadLine();
         }
     }
